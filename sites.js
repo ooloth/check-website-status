@@ -5,7 +5,7 @@ exports.mySites = [
   "https://www.gatsbytutorials.com",
   "https://ileanamontalbetti.netlify.com/",
   "https://www.jpatrickraftery.com",
-  "https://www.lauraalbino.com",
+  "https://lauraalbino.netlify.com/",
   "https://www.lesleybarber.com",
   "https://www.michaeluloth.com"
 ];
