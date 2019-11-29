@@ -3,7 +3,7 @@ exports.mySites = [
   "https://www.adriannepieczonka.com",
   "http://www.egofilmarts.com",
   "https://www.gatsbytutorials.com",
-  "https://www.ileanamontalbetti.com",
+  "https://ileanamontalbetti.netlify.com/",
   "https://www.jpatrickraftery.com",
   "https://www.lauraalbino.com",
   "https://www.lesleybarber.com",
