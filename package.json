@@ -1,13 +1,13 @@
 {
-  "name": "website-monitoring",
+  "name": "monitor-website-status-on-nas",
   "version": "1.0.0",
-  "description": "Checks my sites to make sure they haven't gone down.",
-  "repository": "https://github.com/ooloth/website-monitoring.git",
+  "description": "Confirms my websites are online",
+  "repository": "https://github.com/ooloth/monitor-website-status-on-nas.git",
+  "author": "Michael Uloth <hello@michaeluloth.com>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michael Uloth <hello@michaeluloth.com>",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0"

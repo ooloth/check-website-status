@@ -7,7 +7,7 @@ async function checkUrl(url) {
     await fetch(url);
     return null;
   } catch (error) {
-    console.log(`😱 ${error.code}: ${url}`);
+    console.log(`\n😱 ${error.code}: ${url}`);
     return url;
   }
 }
@@ -21,7 +21,7 @@ async function checkUrls() {
     return null;
   }
 
-  console.log(`😎 All websites are online.`);
+  console.log(`\n😎 All websites are online.`);
 }
 
 checkUrls();
