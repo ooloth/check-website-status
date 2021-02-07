@@ -7,7 +7,8 @@
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "check": "npm run build && node lib/index"
   },
   "license": "ISC",
   "dependencies": {
