@@ -1,15 +1,22 @@
 {
-  "name": "monitor-website-status-on-nas",
+  "name": "check-website-status",
   "version": "1.0.0",
-  "description": "Confirms my websites are online",
-  "repository": "https://github.com/ooloth/monitor-website-status-on-nas.git",
+  "description": "Check if one or more websites are online.",
+  "repository": "https://github.com/ooloth/check-website-status.git",
   "author": "Michael Uloth <hello@michaeluloth.com>",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "twilio": "^3.55.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8",
+    "typescript": "^4.1.3"
   }
 }
