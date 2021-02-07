@@ -19,5 +19,8 @@ URLS_SEPARATED_BY_A_SPACE=""
 ```
 
 4. Run `npm install`
-5. Run `node lib/index`
-6. If you like, use a cron job to run the script every day, week, etc.
+5. Run `npm run check`
+6. If you want to automate these checks:
+   a. Edit the paths in `check.md` to match your local folder structure
+   b. Run `chmod +x check.sh` to make `check.sh` executable
+   c. Use a cron job (or an app like [Lingon](https://www.peterborgapps.com/lingon/)) to run `check.sh` every day, week, etc.
