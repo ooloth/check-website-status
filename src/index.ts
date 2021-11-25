@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 
 import checkUrl from "./checkUrl";
-import sendText from "./sendText";
+import sendEmail from "./sendEmail";
 
 dotenv.config({ path: ".env.local" });
 
@@ -23,9 +23,11 @@ async function reportFailures(failures: string[]) {
   if (failures.length) {
     await Promise.all(
       failures.map((error) => {
-        sendText(error);
+        sendEmail(error);
       })
     );
+  } else {
+    sendEmail("All sites are online 😎");
   }
 }
 
